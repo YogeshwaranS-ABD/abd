@@ -2,7 +2,7 @@ var p = [["ABD", 20, "Hiroshima"],["CDQ", 20, "Subara"],["VKA", 20, "Tokyo"],["A
 for(let i=0; i<p.length; i++){
 	let card = ` 
 	<div class="col">
-		<div class="card h-100">
+		<div class="card h-100 crd">
 		    <div class="card-body">
 		        <h5 class="card-title"> ${p[i][0]} </h5>
 		        <p class="card-text">
@@ -16,7 +16,7 @@ for(let i=0; i<p.length; i++){
 				    		<center>
 							  	<a href="p2.html">
 							  		<button class="btn btn-primary" onclick=cardDetails >
-							  			Submit
+							  			Buy
 							  		</button>
 							  	</a>
 				    		</center>
