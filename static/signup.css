@@ -1,0 +1,42 @@
+		body{
+    		text-align: center;
+    		font-family: verdana;
+    		overflow-y: hidden;
+    	}
+    	input{
+    		font-family: verdana;
+			border: none;
+			border-bottom: 1px solid grey;
+			font-size: 1.25rem;
+			padding: 1.5%;
+			width: auto;
+			margin: auto;
+		}
+		input:focus{
+			outline: none;
+			border: 3px solid rosybrown;
+			border-radius: 10px;
+		}
+		.h{
+			padding: 4%;
+			font-size: 2.5rem;
+			color: brown;
+			text-transform: uppercase;
+		}
+		main{
+            display: flex;
+            justify-content: center;
+            padding: 6%;
+        }
+		.bdy{
+			border: 2px solid brown;
+			width: auto;
+			padding: 5%;
+			padding-top: 2%;
+			border-radius: 10%;
+		}
+		.btn{
+            background-color: lightyellow;
+            color: darkred;
+            font-weight: bold;
+        }
