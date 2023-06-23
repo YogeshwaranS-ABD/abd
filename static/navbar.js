@@ -40,4 +40,24 @@ let nav2 = `
 </nav>
 `
 
+let nav3 = `
+
+
+<nav class="navbar">
+    <div>
+        <a href="index.html" class="logo"><span>ABD</span>  <img src="static/img/logo.png" alt="LOGO"></a>
+    </div>
+    <div class="list">
+        <select id="drpdwn">
+		    <option></option>
+		    <option>Home</option>
+		    <option>Features</option>
+		    <option>About</option>
+		    <option>Login</option>
+		</select>
+
+    </div>
+</nav>
+`
+
 document.write(nav2);

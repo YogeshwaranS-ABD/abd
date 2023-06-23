@@ -35,3 +35,12 @@
         background-color: #999ce8;
         font-size: 1.6rem;
     }
+    select{
+        border: none;
+        background-color: #0e0a7d;
+        color: white;
+    }
+    select option{
+        border: none;
+        background-color: #999ce8;
+    }
