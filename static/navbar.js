@@ -1,10 +1,9 @@
 let nav = `
 	<nav>
 		<div>
-			<div class="logo">
-				ABD &ensp;
+			<div class="logo"> 
 				<a href="index.html">
-					<img src="static/img/logo.png" alt="LOGO" height="45px" width="45px">
+					ABD&ensp;<img src="static/img/logo.png" alt="ABD" height="45px" width="45px">
 				</a>
 			</div>
 			<ul>
@@ -17,8 +16,5 @@ let nav = `
 		</div>
 	</nav>
 `
-
-
-
 
 document.write(nav);
