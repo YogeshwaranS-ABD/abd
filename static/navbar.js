@@ -7,7 +7,7 @@ let nav = `
 					<img src="static/img/logo.png" alt="LOGO" height="45px" width="45px">
 				</a>
 			</div>
-			<ul class="dropdown-menu">
+			<ul>
 				<a href="index.html"><li>Home</li></a>
 				<a href="index.html"><li>Trending</li></a>
 				<a href="index.html"><li>Search</li></a>
