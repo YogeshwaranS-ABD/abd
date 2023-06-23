@@ -22,7 +22,7 @@ for(let i=0; i<p.length; i++){
 		      </div>
 		      <div class="card-footer foot">
 		        <small class="text-muted">
-		        	<p>${p[i][2]}</p>
+		        	<b>${p[i][2]}</b>
 		        </small>
 		      </div>
 		    </div>

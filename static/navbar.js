@@ -1,5 +1,5 @@
 let nav = `
-<nav>
+	<nav>
 		<div>
 			<div class="logo">
 				ABD &ensp;
@@ -7,7 +7,7 @@ let nav = `
 					<img src="static/img/logo.png" alt="LOGO" height="45px" width="45px">
 				</a>
 			</div>
-			<ul>
+			<ul class="dropdown-menu">
 				<a href="index.html"><li>Home</li></a>
 				<a href="index.html"><li>Trending</li></a>
 				<a href="index.html"><li>Search</li></a>
@@ -17,5 +17,8 @@ let nav = `
 		</div>
 	</nav>
 `
+
+
+
 
 document.write(nav);
