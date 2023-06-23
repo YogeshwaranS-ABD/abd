@@ -8,6 +8,7 @@
         font-family: verdana;
         display: flex;
         justify-content: center;
+        position: inherit;
     }
     nav div a{
         text-decoration: none;

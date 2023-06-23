@@ -31,7 +31,7 @@ let nav2 = `
             <a href="#">Features</a>
         </span>
         <span>
-            <a href="login.html">Gallery</a>
+            <a href="#">Gallery</a>
         </span>
         <span >
             <a href="login.html">Login</a>
