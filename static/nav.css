@@ -1,54 +1,36 @@
-*{
-	margin: 0;
-}
-nav{
-	width: auto;
-}
-nav div{
-	padding: 0% 1%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #020561;
 
-}
-nav div .logo{
-	padding-left: 30px;
-	color: white;
-	font-size: 2rem;
-	font-family: verdana;
-}
-
-nav div ul{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 15px;
-	padding-right: 30px;
-}
-nav div ul a{
-	padding: 0px 10px;
-	list-style: none;
-	text-decoration: none;
-	color: white;
-}
-nav div ul a li{
-	font-family: sans-serif;
-	font-size: 1.3em;
-}
-nav div ul a:hover{
-	border-radius: 5px;
-	padding: 0px 30px;
-	background-color: #999ce8;
-	color: black;
-	transition: 0.5s;
-	color: white;
-}
-.login{
-	border: 2px solid #999ce8;
-	border-radius: 5px;
-}
-.logo a{
-	text-decoration: none;
-	color: white;
-}
+    nav{
+        width: auto;
+        background-color: #0e0a7d;
+    }
+    nav div{
+        padding: 0.25% 3%;
+        font-family: verdana;
+        display: flex;
+        justify-content: center;
+    }
+    nav div a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+    }
+    .list span a{
+        padding: 0px 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+    }
+    nav div a img{
+        width: 40px;
+        height: 40px;
+    }
+    .list span{
+        transition: 0.5s;
+        padding: 1% 2%;
+        border-radius: 10px;
+    }
+    .list span:hover{
+        padding: 1% 6%;
+        background-color: #999ce8;
+        font-size: 1.6rem;
+    }

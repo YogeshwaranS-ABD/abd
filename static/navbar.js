@@ -17,4 +17,27 @@ let nav = `
 	</nav>
 `
 
-document.write(nav);
+let nav2 = `
+
+<nav class="navbar">
+    <div>
+        <a href="index.html" class="logo"><span>ABD</span>  <img src="static/img/logo.png" alt="LOGO"></a>
+    </div>
+    <div class="list">
+        <span>
+            <a href="index.html">Home</a>
+        </span>
+        <span>
+            <a href="#">Features</a>
+        </span>
+        <span>
+            <a href="login.html">Gallery</a>
+        </span>
+        <span >
+            <a href="login.html">Login</a>
+        </span>
+    </div>
+</nav>
+`
+
+document.write(nav2);
