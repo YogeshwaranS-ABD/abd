@@ -51,8 +51,8 @@ let nav3 = `
   </label>
     <ul class="menu">
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="trend.html">Trends</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
       <li><a href="login.html">Login</a></li>
     </ul>
   </section>
