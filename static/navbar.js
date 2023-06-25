@@ -41,23 +41,21 @@ let nav2 = `
 `
 
 let nav3 = `
-
-
-<nav class="navbar">
+  <section class="top-nav">
     <div>
-        <a href="index.html" class="logo"><span>ABD</span>  <img src="static/img/logo.png" alt="LOGO"></a>
+      <a href="index.html" class="logo"><span>ABD</span>  <img src="static/img/logo.png" alt="LOGO" width="40px"></a>
     </div>
-    <div class="list">
-        <select id="drpdwn">
-		    <option></option>
-		    <option>Home</option>
-		    <option>Features</option>
-		    <option>About</option>
-		    <option>Login</option>
-		</select>
-
-    </div>
-</nav>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </section>
 `
 
-document.write(nav2);
+document.write(nav3);
