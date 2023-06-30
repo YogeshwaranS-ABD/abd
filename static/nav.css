@@ -118,7 +118,7 @@ html, body {
     margin: 0;
     padding: 0.7em 0;
     width: 100%;
-    color: white;
+    color: transparent;
     background-color: #222;
   }
   .menu > li:not(:last-child) {
@@ -128,12 +128,12 @@ html, body {
 
 li > a{
     text-decoration: none;
-    color: transparent;
+    color: white;
 }
 
 .top-nav > div > a{
     text-decoration: none;
-    color: transparent;
+    color: white;
 }
 
 .menu > li :hover{
