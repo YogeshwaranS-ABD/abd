@@ -128,12 +128,12 @@ html, body {
 
 li > a{
     text-decoration: none;
-    color: white;
+    color: transparent;
 }
 
 .top-nav > div > a{
     text-decoration: none;
-    color: white;
+    color: transparent;
 }
 
 .menu > li :hover{
