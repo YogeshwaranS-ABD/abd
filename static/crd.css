@@ -1,10 +1,14 @@
 .crd{
 	text-decoration: none;
-	color: black;
+	color: #cfdbfa;
+}
+.crd1{
+	background-color: #000;
 }
 .crd1:hover{
-		box-shadow: 3px 3px 6px #000;
+		box-shadow: 5px 5px 5px #cfdbfa;
+		border: 1px solid #cfdbda;
 	}
 .im:hover{
-	box-shadow: 6px 6px 16px #000;
+	box-shadow: 5px 5px 5px #cfdbfa;
 }
